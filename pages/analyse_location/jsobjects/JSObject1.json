@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "analyse_location",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tstoreValue(\"tab\", \"Tab 1\")\n\t},\n\tmyReset: () => {\n\t\tstoreValue(\"tab\",\"Tab 1\")\n\t},\n\t numberWithCommas: function(x) {\n    return x.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\");\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "analyse_location_JSObject1",
+  "deleted": false,
+  "gitSyncId": "636b452aca94d238fcabc03e_636bf276ca94d238fcabc069"
+}
