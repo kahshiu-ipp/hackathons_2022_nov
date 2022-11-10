@@ -454,7 +454,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 800,
+                  "bottomRow": 1050,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
@@ -481,8 +481,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 52,
-                      "bottomRow": 56,
+                      "topRow": 73,
+                      "bottomRow": 77,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -962,8 +962,8 @@
                       ],
                       "displayName": "List",
                       "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
-                      "topRow": 8,
-                      "bottomRow": 30,
+                      "topRow": 39,
+                      "bottomRow": 61,
                       "parentRowSpace": 10,
                       "type": "LIST_WIDGET",
                       "hideCard": false,
@@ -1649,7 +1649,7 @@
                       "key": "f8bz12pfj3",
                       "backgroundColor": "transparent",
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 63,
                       "onListItemClick": "{{List1.selectedItem?.json2?.length>0? (()=>{showModal('Modal1');storeValue(\"item\",List1.selectedItem)})():null}}",
                       "itemBackgroundColor": "#FFFFFF",
                       "widgetId": "5wa47wbyds",
@@ -1669,8 +1669,8 @@
                       "searchTags": [
                         "line"
                       ],
-                      "topRow": 36,
-                      "bottomRow": 40,
+                      "topRow": 61,
+                      "bottomRow": 65,
                       "parentRowSpace": 10,
                       "type": "DIVIDER_WIDGET",
                       "capType": "nc",
@@ -1768,8 +1768,8 @@
                       ],
                       "displayName": "List",
                       "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
-                      "topRow": 51,
-                      "bottomRow": 78,
+                      "topRow": 76,
+                      "bottomRow": 103,
                       "parentRowSpace": 10,
                       "type": "LIST_WIDGET",
                       "hideCard": false,
@@ -2041,8 +2041,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 40,
-                      "bottomRow": 44,
+                      "topRow": 65,
+                      "bottomRow": 69,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -2090,8 +2090,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 40,
-                      "bottomRow": 44,
+                      "topRow": 65,
+                      "bottomRow": 69,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -2139,8 +2139,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 45,
-                      "bottomRow": 49,
+                      "topRow": 69,
+                      "bottomRow": 73,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -2191,8 +2191,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 52,
-                      "bottomRow": 56,
+                      "topRow": 73,
+                      "bottomRow": 77,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -2243,8 +2243,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 59,
-                      "bottomRow": 63,
+                      "topRow": 77,
+                      "bottomRow": 81,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -2295,8 +2295,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 45,
-                      "bottomRow": 49,
+                      "topRow": 69,
+                      "bottomRow": 73,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -2344,8 +2344,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 59,
-                      "bottomRow": 63,
+                      "topRow": 77,
+                      "bottomRow": 81,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -2394,8 +2394,8 @@
                       "searchTags": [
                         "dropdown"
                       ],
-                      "topRow": 44,
-                      "bottomRow": 51,
+                      "topRow": 69,
+                      "bottomRow": 76,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "type": "SELECT_WIDGET",
@@ -2435,6 +2435,402 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "borderColor": "#E0DEDE",
+                      "isVisibleDownload": false,
+                      "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+                      "topRow": 8,
+                      "isSortable": true,
+                      "type": "TABLE_WIDGET_V2",
+                      "inlineEditingSaveOption": "ROW_LEVEL",
+                      "animateLoading": true,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.button.buttonColor"
+                        },
+                        {
+                          "key": "childStylesheet.button.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.menuButton.menuColor"
+                        },
+                        {
+                          "key": "childStylesheet.menuButton.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.iconButton.buttonColor"
+                        },
+                        {
+                          "key": "childStylesheet.iconButton.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.saveButtonColor"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.saveBorderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.discardButtonColor"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.discardBorderRadius"
+                        },
+                        {
+                          "key": "tableData"
+                        },
+                        {
+                          "key": "primaryColumns.row_no1.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.avg_demand_score.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.count.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.proj_type.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.p_min.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.p_med.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.p_med2.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.p_max.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.json2.computedValue"
+                        }
+                      ],
+                      "leftColumn": 1,
+                      "delimiter": ",",
+                      "defaultSelectedRowIndex": 0,
+                      "showInlineEditingOptionDropdown": true,
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisibleFilters": false,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "enableClientSideSearch": true,
+                      "version": 1,
+                      "totalRecordsCount": 0,
+                      "isLoading": false,
+                      "childStylesheet": {
+                        "button": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "menuButton": {
+                          "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "iconButton": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "editActions": {
+                          "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        }
+                      },
+                      "borderRadius": "0.375rem",
+                      "defaultSelectedRowIndices": [
+                        0
+                      ],
+                      "widgetName": "Table1",
+                      "defaultPageSize": 0,
+                      "columnOrder": [
+                        "row_no1",
+                        "avg_demand_score",
+                        "count",
+                        "proj_type",
+                        "p_min",
+                        "p_med",
+                        "p_med2",
+                        "p_max",
+                        "json2"
+                      ],
+                      "dynamicPropertyPathList": [],
+                      "compactMode": "TALL",
+                      "displayName": "Table",
+                      "bottomRow": 38,
+                      "columnWidthMap": {
+                        "task": 245,
+                        "step": 62,
+                        "status": 75,
+                        "p_med": 159,
+                        "p_med2": 151.33007812500003,
+                        "proj_type": 326,
+                        "avg_demand_score": 88
+                      },
+                      "parentRowSpace": 10,
+                      "hideCard": false,
+                      "parentColumnSpace": 12.0537109375,
+                      "dynamicTriggerPathList": [],
+                      "borderWidth": "1",
+                      "primaryColumns": {
+                        "row_no1": {
+                          "allowCellWrapping": false,
+                          "index": 0,
+                          "width": 150,
+                          "originalId": "row_no1",
+                          "id": "row_no1",
+                          "alias": "row_no1",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "row_no1",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"row_no1\"]))}}",
+                          "validation": {}
+                        },
+                        "avg_demand_score": {
+                          "allowCellWrapping": false,
+                          "index": 1,
+                          "width": 150,
+                          "originalId": "avg_demand_score",
+                          "id": "avg_demand_score",
+                          "alias": "avg_demand_score",
+                          "horizontalAlignment": "RIGHT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "avg_demand_score",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"avg_demand_score\"]))}}",
+                          "validation": {}
+                        },
+                        "count": {
+                          "allowCellWrapping": false,
+                          "index": 2,
+                          "width": 150,
+                          "originalId": "count",
+                          "id": "count",
+                          "alias": "count",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "count",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"count\"]))}}",
+                          "validation": {}
+                        },
+                        "proj_type": {
+                          "allowCellWrapping": false,
+                          "index": 3,
+                          "width": 150,
+                          "originalId": "proj_type",
+                          "id": "proj_type",
+                          "alias": "proj_type",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "proj_type",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"proj_type\"]))}}",
+                          "validation": {}
+                        },
+                        "p_min": {
+                          "allowCellWrapping": false,
+                          "index": 4,
+                          "width": 150,
+                          "originalId": "p_min",
+                          "id": "p_min",
+                          "alias": "p_min",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "p_min",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"p_min\"]))}}",
+                          "validation": {}
+                        },
+                        "p_med": {
+                          "allowCellWrapping": false,
+                          "index": 5,
+                          "width": 150,
+                          "originalId": "p_med",
+                          "id": "p_med",
+                          "alias": "p_med",
+                          "horizontalAlignment": "RIGHT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "p_med",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"p_med\"].toLocaleString('en-US')))}}",
+                          "validation": {}
+                        },
+                        "p_med2": {
+                          "allowCellWrapping": false,
+                          "index": 6,
+                          "width": 150,
+                          "originalId": "p_med2",
+                          "id": "p_med2",
+                          "alias": "p_med2",
+                          "horizontalAlignment": "RIGHT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "p_med2",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"p_med2\"].toLocaleString('en-US')))}}",
+                          "validation": {}
+                        },
+                        "p_max": {
+                          "allowCellWrapping": false,
+                          "index": 7,
+                          "width": 150,
+                          "originalId": "p_max",
+                          "id": "p_max",
+                          "alias": "p_max",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "p_max",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"p_max\"]))}}",
+                          "validation": {}
+                        },
+                        "json2": {
+                          "allowCellWrapping": false,
+                          "index": 8,
+                          "width": 150,
+                          "originalId": "json2",
+                          "id": "json2",
+                          "alias": "json2",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "json2",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"json2\"]))}}",
+                          "validation": {}
+                        }
+                      },
+                      "key": "4omii9gsj5",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "textSize": "1rem",
+                      "widgetId": "5ycetdn434",
+                      "tableData": "{{main.data}}",
+                      "label": "Data",
+                      "searchKey": "",
+                      "parentId": "zk212reg3n",
+                      "renderMode": "CANVAS",
+                      "horizontalAlignment": "LEFT",
+                      "isVisibleSearch": false,
+                      "isVisiblePagination": false,
+                      "verticalAlignment": "CENTER"
                     }
                   ],
                   "isDisabled": false,
