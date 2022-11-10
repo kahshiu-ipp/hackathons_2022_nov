@@ -1,0 +1,87 @@
+INSERT INTO public.potential_buyer (p_age,p_annual_income,marital_status,tot_household_members,tot_owned_prop,postcode,radii) VALUES
+	 (45,1000000.00,'Married',5,2,58000,3),
+	 (43,1763988.00,'Single',1,0,58000,14),
+	 (34,4035106.00,'Single',2,3,58000,8),
+	 (30,3550615.00,'Married',6,0,58000,10),
+	 (46,2343611.00,'Married',3,0,58000,3),
+	 (51,3309798.00,'Single',1,1,58000,4),
+	 (50,900980.00,'Married',1,3,58000,7),
+	 (50,833392.00,'Single',1,0,58000,1),
+	 (61,2172311.00,'Single',1,1,58000,5),
+	 (34,1683913.00,'Married',5,3,58000,4);
+INSERT INTO public.potential_buyer (p_age,p_annual_income,marital_status,tot_household_members,tot_owned_prop,postcode,radii) VALUES
+	 (32,4046533.00,'Married',2,1,58000,5),
+	 (28,1107002.00,'Single',1,0,58000,5),
+	 (31,2012176.00,'Married',1,1,58000,2),
+	 (58,2520822.00,'Single',2,1,58000,10),
+	 (31,4418843.00,'Single',1,1,58000,10),
+	 (57,3204380.00,'Married',4,2,58000,9),
+	 (48,4439705.00,'Married',6,0,58000,10),
+	 (40,1278948.00,'Single',1,0,58000,9),
+	 (47,1642914.00,'Married',2,2,58000,14),
+	 (50,4520144.00,'Single',2,2,58000,14);
+INSERT INTO public.potential_buyer (p_age,p_annual_income,marital_status,tot_household_members,tot_owned_prop,postcode,radii) VALUES
+	 (40,4682284.00,'Single',1,1,58000,5),
+	 (35,2331399.00,'Married',2,1,58000,12),
+	 (65,4302970.00,'Married',3,3,58000,9),
+	 (67,4875718.00,'Single',1,1,58000,12),
+	 (68,963359.00,'Married',2,3,58000,4),
+	 (52,4926641.00,'Single',1,1,58000,5),
+	 (68,3625208.00,'Single',1,1,58000,14),
+	 (37,1845622.00,'Married',2,1,58000,10),
+	 (52,3703679.00,'Married',2,0,58000,7),
+	 (44,2882958.00,'Single',1,2,58000,2);
+INSERT INTO public.potential_buyer (p_age,p_annual_income,marital_status,tot_household_members,tot_owned_prop,postcode,radii) VALUES
+	 (57,2640642.00,'Married',6,3,58000,6),
+	 (42,3842929.00,'Single',1,1,58000,8),
+	 (43,1179374.00,'Single',1,3,58000,5),
+	 (36,4509174.00,'Married',1,0,58000,10),
+	 (61,3531541.00,'Married',1,0,58000,8),
+	 (30,1075066.00,'Single',2,3,58000,3),
+	 (31,2837386.00,'Married',1,3,58000,12),
+	 (33,4273913.00,'Single',2,3,58000,7),
+	 (33,4220808.00,'Single',1,0,58000,11),
+	 (58,1100144.00,'Married',5,1,58000,12);
+INSERT INTO public.potential_buyer (p_age,p_annual_income,marital_status,tot_household_members,tot_owned_prop,postcode,radii) VALUES
+	 (37,3108342.00,'Married',5,0,58000,13),
+	 (38,4813488.00,'Single',2,2,58000,6),
+	 (66,2399503.00,'Married',2,3,58000,4),
+	 (28,2705969.00,'Single',1,3,58000,6),
+	 (29,3240561.00,'Single',1,0,58000,13),
+	 (34,2506422.00,'Married',2,1,58000,4),
+	 (60,4161910.00,'Married',3,2,58000,11),
+	 (34,4793457.00,'Single',1,1,58000,10),
+	 (30,4527863.00,'Married',1,1,58000,15),
+	 (59,3625731.00,'Single',1,2,58000,4);
+INSERT INTO public.potential_buyer (p_age,p_annual_income,marital_status,tot_household_members,tot_owned_prop,postcode,radii) VALUES
+	 (59,3264031.00,'Single',2,2,58000,6),
+	 (66,3846731.00,'Married',5,3,58000,14),
+	 (37,2025902.00,'Married',3,2,58000,2),
+	 (41,3984267.00,'Single',1,3,58000,12),
+	 (58,3589608.00,'Married',2,2,58000,8),
+	 (47,4128723.00,'Single',1,2,58000,6),
+	 (43,4676193.00,'Single',2,2,58000,6),
+	 (49,1739022.00,'Married',6,1,58000,8),
+	 (36,1045666.00,'Married',3,0,58000,9),
+	 (41,1430329.00,'Single',1,1,58000,11);
+INSERT INTO public.potential_buyer (p_age,p_annual_income,marital_status,tot_household_members,tot_owned_prop,postcode,radii) VALUES
+	 (41,3318839.00,'Married',4,3,58000,7),
+	 (51,3179432.00,'Single',2,3,58000,12),
+	 (64,4258179.00,'Single',1,1,58000,6),
+	 (36,4732140.00,'Married',6,3,58000,4),
+	 (38,2533032.00,'Married',6,0,58000,2),
+	 (49,4347530.00,'Single',1,0,58000,2),
+	 (47,4619619.00,'Married',5,2,58000,6),
+	 (52,3098574.00,'Single',1,3,58000,3),
+	 (40,4596132.00,'Single',1,2,58000,11),
+	 (32,1194779.00,'Married',2,2,58000,12);
+INSERT INTO public.potential_buyer (p_age,p_annual_income,marital_status,tot_household_members,tot_owned_prop,postcode,radii) VALUES
+	 (68,2720353.00,'Married',1,3,58000,5),
+	 (44,856654.00,'Single',2,1,58000,4),
+	 (36,2687227.00,'Married',5,2,58000,12),
+	 (38,2166511.00,'Single',1,1,58000,3),
+	 (41,3332486.00,'Single',2,3,58000,5),
+	 (62,3296966.00,'Married',4,3,58000,14),
+	 (67,2047307.00,'Married',5,2,58000,4),
+	 (43,2043238.00,'Single',2,2,58000,8),
+	 (38,3318848.00,'Married',4,2,58000,6);
