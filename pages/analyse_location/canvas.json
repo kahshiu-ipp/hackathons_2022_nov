@@ -3160,7 +3160,7 @@
               "key": "afvlhdfaam",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 63,
+              "rightColumn": 64,
               "widgetId": "r89izo5urx",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "{{appsmith.store.tab}}",
